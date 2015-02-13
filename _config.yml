@@ -1,7 +1,7 @@
 name: ""
 relative_permalinks: true
 markdown: kramdown
-highlighter: true
+highlighter: pygments
 # paginate: 12
 # paginate_path: "blog/page:num"
 
