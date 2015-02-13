@@ -1,0 +1,8 @@
+---
+title: search
+---
+[{% for post in site.posts %}{{ post.title }},
+{% endfor %}
+{% for post in site.posts %}{{ post.content }},
+{% endfor %}
+false]

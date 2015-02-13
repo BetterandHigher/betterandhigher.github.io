@@ -1,0 +1,30 @@
+name: ""
+relative_permalinks: true
+markdown: kramdown
+highlighter: true
+# paginate: 12
+# paginate_path: "blog/page:num"
+
+author :
+  name : David Kim
+  email : betterandhigher@gmail.com
+  github : BetterandHigher
+  twitter : 
+  feedburner : 
+
+production_url : http://betterandhigher.com
+BASE_PATH : false
+ASSET_PATH: false
+
+# Google analytics
+analytics:
+  provider: google
+  google:
+    tracking_id: UA-59715276-1
+  getclicky:
+    site_id:
+
+comments:
+  provider : 
+  disqus:
+    short_name: 

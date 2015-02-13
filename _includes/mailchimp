@@ -1,0 +1,24 @@
+<!-- Begin MailChimp Signup Form -->
+
+<div id="form-landing">
+	<form role="form" action="http://betterandhigher.us10.list-manage.com/subscribe/post?u=3024af74633ff7262db000c45&amp;id=5ac3da1d94" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+	  <div class="form-group">
+
+			<input type="text" value="" name="FNAME" class="form-control email-subscription" id="mce-FNAME" placeholder="First name" required>
+
+	    <input type="email" value="" name="EMAIL" class="form-control email-subscription" id="mce-EMAIL" placeholder="Email address" required>
+
+	    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+	    <div style="position: absolute; left: -5000px;">
+	    	<input type="text" name="b_3024af74633ff7262db000c45_5ac3da1d94" value="">
+	    </div>
+	  </div>
+
+	  <div class="btn-group btn-group-lg">
+	    <button type="submit" class="btn btn-warning" name="subscribe" id="mc-embedded-subscribe"><strong>I want to be awesome!</strong></button>
+	  </div>
+	</form>
+</div>
+<!--End mc_embed_signup-->

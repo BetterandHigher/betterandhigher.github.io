@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-lg-12 col-sm-12">
+      <h1 class="page-header"></h1>
+    </div>
+
+    <div class="col-lg-9 col-sm-8">
+      <h2>{{page.title}}</h2>
+      <small style='color: gray;'>{{page.date | date: "%Y %b %d"}},
+        {% if page.author %}
+          by {{page.author}}
+        {% endif %}
+      </small>
+      <br /><br />
+      {% include share_linkedin.js %}
+      {% include share_gplus.js %}
+      {% include share_tweet.js %}
+      {% include share_rss.html %}
+      <br /><br />
+
+      {{ content }}
+
+    <br />
+      <a href="{{BASE_PATH}}/blog/index.html">Back to All Blogs</a>
+    <br />
+    <br />
+
+      {% include comments %}
+
+    </div>
+
+    <div class="col-lg-3 col-sm-4">
+      <p>Stay connected via our newsletter:</p>
+      {% include mailchimp %}
+
+      <br />
+      <h4>Or follow via</h4>
+      {% include ss-icons.html %}
+
+      <br />
+      {% include recentposts.html %}
+
+      <br />
+      <h4>Get involved</h4>
+      <a target="_blank" href="http://goo.gl/OnxAj2">Submit meetup ideas</a><br />
+      <a target="_blank" href="https://pmfasttrack.wufoo.com/forms/teaching-via-hangout/">Want to teach?</a>
+
+      <br /><br />
+      <h4>Donating = Caring</h4>
+      <div class="well">
+        {% include donate.html %}
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row">
+    &nbsp;
+</div>
