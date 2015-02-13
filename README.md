@@ -1,2 +1,1 @@
-# betterandhigher
-better and higher site
+# [Better and Higher](http://betterandhigher.com/)
