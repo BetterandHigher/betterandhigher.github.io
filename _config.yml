@@ -12,7 +12,7 @@ author :
   twitter : 
   feedburner : 
 
-production_url : http://betterandhigher.com
+production_url : 
 BASE_PATH : false
 ASSET_PATH: false
 
@@ -20,7 +20,7 @@ ASSET_PATH: false
 analytics:
   provider: google
   google:
-    tracking_id: UA-59715276-1
+    tracking_id: 
   getclicky:
     site_id:
 
